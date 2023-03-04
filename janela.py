@@ -1,14 +1,4 @@
 import os
-
-filename = "arquivo_que_nao_existe.mp4"
-
-try:
-    file_info = os.stat(filename)
-except FileNotFoundError as e:
-    error_msg = str(e)
-
-print(error_msg)  # exibe a mensagem de erro na tela
-import os
 import tkinter as tk 
 from tkinter import font
 from tkinter import messagebox
